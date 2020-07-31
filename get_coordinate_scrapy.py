@@ -44,26 +44,6 @@ for university in u_list:
         if len(result0) == 1:
             if result0 != result:
                 break
-    # sleep(15)
-    # page_url1 = driver.current_url
-    # sleep(10)
-    # page_url2 = driver.current_url
-    # currentPageUrl = page_url2
-    #
-    # if page_url1 == page_url2:
-    #     print("加载完了1")
-    # else:
-    #     sleep(15)
-    #     page_url3 = driver.current_url
-    #     currentPageUrl = page_url3
-    #     if page_url2 == page_url3:
-    #         print("加载完了2")
-    #     else:
-    #         sleep(10)
-    #         print("加载完了3")
-    #         currentPageUrl = driver.current_url
-
-    # print(university)
     try:
         result = result0
         each = [university, result]
